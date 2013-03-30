@@ -1,0 +1,36 @@
+{
+	"name": "monteserinGallery",
+	"title": "jQuery Monteserin Gallery",
+	"description": "Simple Carrusel Gallery.",
+	"keywords": [
+	"gallery",
+	"image",
+	"carrusell"
+	],
+	"version": "1.1.0",
+	"author": {
+		"name": "Pablo Monteserin",
+		"url": "http://pablomonteserin.com/"
+		},
+		"maintainers": [
+		{
+			"name": "Pablo Monteserin",
+			"email": "pablomonteserin@pablomonteserin.com",
+			"url": "http://pablomonteserin.com"
+		}
+		],
+		"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"
+		}
+		],
+		"bugs": "https://github.com/monteserin/monteserinGallery/issues",
+		"homepage": "https://github.com/monteserin/monteserinGallery",
+		"docs": "https://github.com/monteserin/monteserinGallery",
+		"download": "https://github.com/monteserin/monteserinGallery",
+		"dependencies": {
+			"jquery": ">=1.5"
+		}
+
+	}
