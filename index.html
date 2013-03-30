@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="css/monteserinGallery.css">
+<style>
+#wrapper{width:1000px; height:800px; margin:auto;background:salmon;}
+</style>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/monteserinGallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#monteserinGallery").monteserinGallery({
+		initPosX 	: "-500",
+		initPosY 	: "0",
+		endPosX  	: "500",
+		endPosY  	: "0",
+		initWidth 	: "400",
+		inTime		: 500,
+		outTime		: 500,
+		displayTime	: "100"
+
+	});
+});
+</script>
+<div id="wrapper">
+	<ul id="monteserinGallery">
+
+		<li>
+			<img src="img/flower1.jpg">
+		</li>
+		<li>
+			<img src="img/flower2.jpg">
+		</li>
+	</ul>
+</div>
