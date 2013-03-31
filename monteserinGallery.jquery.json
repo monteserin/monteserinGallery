@@ -29,6 +29,7 @@
 		"homepage": "http://www.pablomonteserin.com/monteserin-gallery",
 		"docs": "https://github.com/monteserin/monteserinGallery",
 		"download": "https://github.com/monteserin/monteserinGallery",
+		"demo": "http://www.pablomonteserin.com/cosines/monteserinGallery/index.html",
 		"dependencies": {
 			"jquery": ">=1.5"
 		}
