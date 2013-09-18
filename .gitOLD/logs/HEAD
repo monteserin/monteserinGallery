@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 79cd75ec853f447c15b2055cb7a7522359540155 gitpablo <monty@monty-ThinkPad-Edge.(none)> 1364640167 +0100	commit (initial): first commit
+79cd75ec853f447c15b2055cb7a7522359540155 f8652e5bd48ce5411c56cb2cad8db7505ff8dfae gitpablo <monty@monty-ThinkPad-Edge.(none)> 1364640979 +0100	commit: new file: css/monteserinGallery.css
+f8652e5bd48ce5411c56cb2cad8db7505ff8dfae b2ceda0d97a4a8ec87b5e225632a8667348897b2 gitpablo <monty@monty-ThinkPad-Edge.(none)> 1364643381 +0100	commit: new file: monteserinGallery.jquery.json
+b2ceda0d97a4a8ec87b5e225632a8667348897b2 70dd9452c3977cc241d1bc70b0290e8d957765b0 gitpablo <monty@monty-ThinkPad-Edge.(none)> 1364655206 +0100	commit: modified: monteserinGallery.jquery.json
+70dd9452c3977cc241d1bc70b0290e8d957765b0 823537780ad26d0e701d12bae3c24518dbd8186c gitpablo <monty@monty-ThinkPad-Edge.(none)> 1364655381 +0100	commit: modified: monteserinGallery.jquery.json
+823537780ad26d0e701d12bae3c24518dbd8186c 8f08dc4c6010e80249d5baf733f71c278c8ded0f gitpablo <monty@monty-ThinkPad-Edge.(none)> 1364710635 +0200	commit: modified: monteserinGallery.jquery.json
+8f08dc4c6010e80249d5baf733f71c278c8ded0f 58a9d2ef6bd0509b6a40d7f1db976b42fe16f127 gitpablo <monty@monty-ThinkPad-Edge.(none)> 1364710742 +0200	commit: modified: monteserinGallery.jquery.json
+58a9d2ef6bd0509b6a40d7f1db976b42fe16f127 23ab2e2a09403ca240f21f22b32a810855aaf7ce gitpablo <monty@monty-ThinkPad-Edge.(none)> 1365020885 +0200	commit: modified: css/monteserinGallery.css

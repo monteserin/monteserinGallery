@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 e99aace41d0c750c3440700f22c57809288715ac monty <monty@monty-ThinkPad-Edge.(none)> 1379545375 +0200	initial pull
+e99aace41d0c750c3440700f22c57809288715ac ce86ec3d120251261762951d951d2847452ee380 monty <monty@monty-ThinkPad-Edge.(none)> 1379545560 +0200	commit: deleted: OLD.git/COMMIT_EDITMSG
+ce86ec3d120251261762951d951d2847452ee380 a2583e23541bb444d6705fbfea67e24785e33d93 monty <monty@monty-ThinkPad-Edge.(none)> 1379545604 +0200	commit: new file: .gitOLD/COMMIT_EDITMSG
+a2583e23541bb444d6705fbfea67e24785e33d93 a63c89900065173c14ec67c9fc709b36c07b373f monty <monty@monty-ThinkPad-Edge.(none)> 1379547016 +0200	commit: modified: up.sh
