@@ -1,11 +1,17 @@
 
 
+#PRIMERA VEZ
+#git remote add origin https://github.com/monteserin/monteserinGallery.git
+#git add .
+#git commit -a
+#git push -u --force origin master #en caso de que se nos pida hacer un merge, el --force fuerza a sobreescribir lo que hay en remoto con lo que hay en local
 
-git remote add origin https://github.com/monteserin/monteserinGallery.git
 
 
-git tag 1.2.1 #esta versión debe coincidir con la del manifest
-git push origin --tags
+
+git tag 1.2.3 #esta versión debe coincidir con la del manifest
+git commit -a
+git push origin --force --tags
 
 
 
