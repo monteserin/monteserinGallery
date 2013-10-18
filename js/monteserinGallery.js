@@ -28,7 +28,7 @@ jQuery.fn.monteserinGallery = function(event){
 	function loop(counter){
 		counter++;
 		if(counter>=size){counter=0;}
-imagesArray.eq(counter).css({"margin-left" : initPosX});
+imagesArray.eq(counter).css({"margin-left" : initPosX,"margin-top":initPosY});
 	imagesArray.eq(counter).animate({margin: displayPosY+"px 0px 0px "+displayPosX+"px", opacity:"1"},inTime).delay(displayTime).queue(function(nxt){loop(counter); imagesArray.eq(counter).animate({margin: endPosY+" 0px 0px "+endPosX, opacity:"0"},outTime); nxt() })
 
 }
