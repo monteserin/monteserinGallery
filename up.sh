@@ -7,7 +7,7 @@
 
 
 
-git tag 1.2.6 #esta versión debe coincidir con la del manifest
+git tag 1.2.7 #esta versión debe coincidir con la del manifest
 git commit -a
 git push origin --force --tags
 
