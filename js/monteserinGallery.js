@@ -1,3 +1,5 @@
+$(function(){
+
 jQuery.fn.monteserinGallery = function(event){
 	var counter = -1;
 	var counterNextImg = -1;
@@ -11,6 +13,7 @@ jQuery.fn.monteserinGallery = function(event){
 	var inTime = 1000;
 	var outTime = 1000;
 	var displayTime = 2500;
+
 	$this = $(this);
 	$thisFirstChild = $this.find("img:first-child");
 	$this.css({"width": $thisFirstChild.width()+"px","height": $thisFirstChild.height()+"px", "position":"relative"});
@@ -40,4 +43,7 @@ jQuery.fn.monteserinGallery = function(event){
 
 	}
 }
+
+
+	});
 
