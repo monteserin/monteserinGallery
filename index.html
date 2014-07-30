@@ -1,34 +1,45 @@
 <style>
 body{padding:0; margin:0;}
 ul{list-style: none; padding:0;}
-#wrapper{width:500px; height:800px; margin:auto; background: salmon}
-
+#wrapper{width:500px; height:800px; margin:auto;}
+body{overflow-x: hidden}
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/monteserinGallery.js"></script>
+
 <script type="text/javascript">
-$(document).ready(function(){
+$(window).load(function(){
 
 	$(".monteserinGallery1").monteserinGallery();
+	$(".monteserinGallery2").monteserinGallery();
 
-	$(".monteserinGallery2").monteserinGallery({
+	$(".monteserinGallery3").monteserinGallery({
 		initPosX 	: "-500px",
 		initPosY 	: "0px",
 		endPosX  	: "500px",
 		endPosY  	: "0px",
-		inTime		: 1500,
-		outTime		: 1500,
-		displayTime	: 2000
+		inTime		: 2500,
+		outTime		: 2500,
+		displayTime	: 4000
 
 	});
-		$(".monteserinGallery3").monteserinGallery({
+		$(".monteserinGallery4").monteserinGallery({
 		initPosX 	: "0",
 		endPosX  	: "0"
 	});
 });
 </script>
 <div id="wrapper">
-	<ul class="monteserinGallery1" style="background:Red" >
+	<ul class="monteserinGallery1"  >
+
+		<li>
+			<img src="http://lorempixel.com/500/300/animals/1">
+		</li>
+		<li>
+			<img src="http://lorempixel.com/500/300/animals/2">
+		</li>
+	</ul>
+	<ul class="monteserinGallery2" style=" overflow-x:hidden" >
 
 		<li>
 			<img src="http://lorempixel.com/500/300/animals/1">
@@ -38,7 +49,7 @@ $(document).ready(function(){
 		</li>
 	</ul>
 
-	<ul class="monteserinGallery2" >
+	<ul class="monteserinGallery3" >
 
 		<li>
 			<img src="http://lorempixel.com/500/300/animals/1">
@@ -47,7 +58,7 @@ $(document).ready(function(){
 			<img src="http://lorempixel.com/500/300/animals/2">
 		</li>
 	</ul>
-		<ul class="monteserinGallery3" style="background:blue">
+		<ul class="monteserinGallery4" style="background:blue">
 
 		<li>
 			<img src="http://lorempixel.com/500/300/animals/1">
