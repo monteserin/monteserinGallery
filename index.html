@@ -1,71 +1,109 @@
-<style>
-body{padding:0; margin:0;}
-ul{list-style: none; padding:0;}
-#wrapper{width:500px; height:800px; margin:auto;}
-body{overflow-x: hidden}
-</style>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="js/monteserinGallery.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Monteserín Gallery</title>
+	<meta name="author" content="Pablo Monteserín">
+	<style>
+	body{padding:0; margin:0;}
+	ul{list-style: none; padding:0;}
+	#wrapper{width:600px; margin:auto;}
+	body{overflow-x: hidden}
+	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/monteserinGallery.js"></script>
 
-<script type="text/javascript">
-$(window).load(function(){
-
-	$(".monteserinGallery1").monteserinGallery();
-	$(".monteserinGallery2").monteserinGallery();
-
-	$(".monteserinGallery3").monteserinGallery({
-		initPosX 	: "-500px",
-		initPosY 	: "0px",
-		endPosX  	: "500px",
-		endPosY  	: "0px",
-		inTime		: 2500,
-		outTime		: 2500,
-		displayTime	: 4000
-
-	});
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".monteserinGallery1").monteserinGallery();
+		$(".monteserinGallery2").monteserinGallery();
+		$(".monteserinGallery3").monteserinGallery({
+			initPosX 	: "0px",
+			initPosY 	: "0px",
+			endPosX  	: "0px",
+			endPosY  	: "500px",
+		});
 		$(".monteserinGallery4").monteserinGallery({
-		initPosX 	: "0",
-		endPosX  	: "0"
+			width:"700px",
+			height:"700px"
+		});
+		$(".monteserinGallery5").monteserinGallery({
+			initPosX 	: "-500px",
+			initPosY 	: "0px",
+			endPosX  	: "500px",
+			endPosY  	: "0px",
+			inTime		: 2500,
+			outTime		: 2500,
+			displayTime	: 4000
+		});
+		$(".monteserinGallery6").monteserinGallery({
+			initPosX 	: "0",
+			endPosX  	: "0"
+		});
 	});
-});
-</script>
+	</script>
+</head>
+<body>
+	<header>
+	<h1>Monteserín Gallery</h1>
+	<p>	By default, the image size is 600x300px. If you want to change it, you must explicity overryde in the javascript call:
+	</p>
+	<code>		$(".monteserinGallery4").monteserinGallery({
+		width:"700px",
+		height:"700px"
+	});</code>
+</header>
 <div id="wrapper">
 	<ul class="monteserinGallery1"  >
+		<li><div>
+			<img src="http://lorempixel.com/600/300/animals/1">
+		</div>
+	</li>
+	<li><div style="background:red">
+		<img src="http://lorempixel.com/600/300/animals/2"></div>
+	</li>
+</ul>
+<ul class="monteserinGallery2" style=" overflow:hidden" >
+	<li>
+		<img src="http://lorempixel.com/600/300/animals/1">
+	</li>
+	<li>
+		<img src="http://lorempixel.com/600/300/animals/2">
+	</li>
+</ul>
+<ul class="monteserinGallery3" style="overflow:hidden">
+	<li style="background:red">
+		<img src="http://lorempixel.com/600/300/animals/1">
+	</li>
+	<li style="background:blue">
+		<img src="http://lorempixel.com/600/300/animals/2">
+	</li>
+</ul> 
+<ul class="monteserinGallery4" >
+	<li>
+		<img src="http://lorempixel.com/600/300/animals/1">
+	</li>
+	<li>
+		<img src="http://lorempixel.com/600/300/animals/2">
+	</li>
+</ul>
+<ul class="monteserinGallery5" >
+	<li>
+		<img src="http://lorempixel.com/600/300/animals/1">
+	</li>
+	<li>
+		<img src="http://lorempixel.com/600/300/animals/2">
+	</li>
+</ul> 
+<ul class="monteserinGallery6" >
+	<li>
+		<img src="http://lorempixel.com/600/300/animals/1">
+	</li>
+	<li>
+		<img src="http://lorempixel.com/600/300/animals/2">
+	</li>
 
-		<li>
-			<img src="http://lorempixel.com/500/300/animals/1">
-		</li>
-		<li>
-			<img src="http://lorempixel.com/500/300/animals/2">
-		</li>
-	</ul>
-	<ul class="monteserinGallery2" style=" overflow-x:hidden" >
-
-		<li>
-			<img src="http://lorempixel.com/500/300/animals/1">
-		</li>
-		<li>
-			<img src="http://lorempixel.com/500/300/animals/2">
-		</li>
-	</ul>
-
-	<ul class="monteserinGallery3" >
-
-		<li>
-			<img src="http://lorempixel.com/500/300/animals/1">
-		</li>
-		<li>
-			<img src="http://lorempixel.com/500/300/animals/2">
-		</li>
-	</ul>
-		<ul class="monteserinGallery4" style="background:blue">
-
-		<li>
-			<img src="http://lorempixel.com/500/300/animals/1">
-		</li>
-		<li>
-			<img src="http://lorempixel.com/500/300/animals/2">
-		</li>
-		
-	</ul>
+</ul> 
 </div>
+</body>
+</html>

@@ -12,6 +12,8 @@
 	var inTime = 1000;
 	var outTime = 1000;
 	var displayTime = 2500;
+	var width = "600px";
+var height = "300px";
 
 		if(event !== undefined){
 		if(event.initPosX !== undefined)initPosX = event.initPosX;
@@ -21,6 +23,9 @@
 		if(event.inTime !== undefined)inTime = event.inTime;
 		if(event.outTime !== undefined)outTime = event.outTime;
 		if(event.displayTime !== undefined)displayTime = event.displayTime;
+		if(event.width !== undefined)width = event.width;
+		if(event.height !== undefined)height = event.height;
+
 	}
 		$this = $(this);
 	
@@ -28,14 +33,14 @@
 
 
 
-
  //$(window).load(function(){
 		$thisFirstChild = $this.find("img:first-child");
-	$this.css({"width": $thisFirstChild.width()+"px","height": $thisFirstChild.height()+"px", "position":"relative"});
+	
+	$this.css({"width": width,"height": height, "position":"relative"});
 
 $this.find("li").css({"margin": "0", "padding": "0"});
 
-	$this.find("img").css({"position":"absolute","box-shadow": "10px 50px 100px black", });
+	$this.find("img").css({"width": width,"height": height,"position":"absolute" });
 
 
 
