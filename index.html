@@ -9,6 +9,10 @@
 	ul{list-style: none; padding:0;}
 	#wrapper{width:600px; margin:auto;}
 	body{overflow-x: hidden}
+
+
+	code{background: #404040; display: block; padding: 20px; border-radius: 20px; box-sizing:border-box; color:#E3B015}
+
 	</style>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/monteserinGallery.js"></script>
@@ -44,16 +48,22 @@
 	</script>
 </head>
 <body>
-	<header>
+
+<div id="wrapper">
+		<header>
 	<h1>Monteserín Gallery</h1>
 	<p>	By default, the image size is 600x300px. If you want to change it, you must explicity overryde in the javascript call:
 	</p>
-	<code>		$(".monteserinGallery4").monteserinGallery({
-		width:"700px",
-		height:"700px"
-	});</code>
+
 </header>
-<div id="wrapper">
+
+
+<code>
+	<pre>
+$(".monteserinGallery1").monteserinGallery();
+	</pre>
+</code>
+
 	<ul class="monteserinGallery1"  >
 		<li><div>
 			<img src="http://lorempixel.com/600/300/animals/1">
@@ -63,6 +73,8 @@
 		<img src="http://lorempixel.com/600/300/animals/2"></div>
 	</li>
 </ul>
+
+
 <ul class="monteserinGallery2" style=" overflow:hidden" >
 	<li>
 		<img src="http://lorempixel.com/600/300/animals/1">
@@ -71,6 +83,19 @@
 		<img src="http://lorempixel.com/600/300/animals/2">
 	</li>
 </ul>
+
+
+
+<code>
+	<pre>
+$(".monteserinGallery3").monteserinGallery({
+	initPosX 	: "0px",
+	initPosY 	: "0px",
+	endPosX  	: "0px",
+	endPosY  	: "500px",
+});
+	</pre>
+</code>
 <ul class="monteserinGallery3" style="overflow:hidden">
 	<li style="background:red">
 		<img src="http://lorempixel.com/600/300/animals/1">
@@ -79,6 +104,16 @@
 		<img src="http://lorempixel.com/600/300/animals/2">
 	</li>
 </ul> 
+
+
+<code>
+	<pre>
+$(".monteserinGallery4").monteserinGallery({
+	width:"700px",
+	height:"700px"
+});
+	</pre>
+</code>
 <ul class="monteserinGallery4" >
 	<li>
 		<img src="http://lorempixel.com/600/300/animals/1">
@@ -87,6 +122,18 @@
 		<img src="http://lorempixel.com/600/300/animals/2">
 	</li>
 </ul>
+
+<code><pre>
+$(".monteserinGallery5").monteserinGallery({
+	initPosX 	: "-500px",
+	initPosY 	: "0px",
+	endPosX  	: "500px",
+	endPosY  	: "0px",
+	inTime		: 2500,
+	outTime		: 2500,
+	displayTime	: 4000
+});
+</pre></code>
 <ul class="monteserinGallery5" >
 	<li>
 		<img src="http://lorempixel.com/600/300/animals/1">
@@ -95,6 +142,14 @@
 		<img src="http://lorempixel.com/600/300/animals/2">
 	</li>
 </ul> 
+
+<code><pre>
+$(".monteserinGallery6").monteserinGallery({
+	initPosX 	: "0",
+	endPosX  	: "0"
+});
+</pre></code>
+
 <ul class="monteserinGallery6" >
 	<li>
 		<img src="http://lorempixel.com/600/300/animals/1">
