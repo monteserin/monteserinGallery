@@ -28,6 +28,7 @@ var height = "300px";
 
 	}
 		$this = $(this);
+		$this.css({"list-style": "none","padding": "0"});
 	
 
 
