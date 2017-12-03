@@ -7,16 +7,16 @@
 	"image",
 	"carrusell"
 	],
-	"version": "1.3.0",
+	"version": "3.0",
 	"author": {
 		"name": "Pablo Monteserin",
-		"url": "http://pablomonteserin.com/"
+		"url": "https://pablomonteserin.com/"
 		},
 		"maintainers": [
 		{
 			"name": "Pablo Monteserin",
 			"email": "pablomonteserin@pablomonteserin.com",
-			"url": "http://pablomonteserin.com"
+			"url": "https://pablomonteserin.com"
 		}
 		],
 		"licenses": [
