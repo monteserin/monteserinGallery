@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Monteserín Gallery</title>
+	<meta name="author" content="Pablo Monteserín">
+	<style>
+	body{padding:0; margin:0; overflow-x: hidden}
+	#wrapper{width:350px; margin:auto;}
+
+
+	code{background: #404040; display: block; padding: 20px; border-radius: 20px; box-sizing:border-box; color:#E3B015}
+
+	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/monteserinGallery.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".monteserinGallery1").monteserinGallery();
+		$(".monteserinGallery2").monteserinGallery();
+		$(".monteserinGallery3").monteserinGallery({
+			initPosX 	: "0px",
+			initPosY 	: "0px",
+			endPosX  	: "0px",
+			endPosY  	: "500px",
+		});
+		$(".monteserinGallery4").monteserinGallery({
+			width:"700px",
+			height:"700px"
+		});
+		$(".monteserinGallery5").monteserinGallery({
+			initPosX 	: "-500px",
+			initPosY 	: "0px",
+			endPosX  	: "500px",
+			endPosY  	: "0px",
+			inTime		: 2500,
+			outTime		: 2500,
+			displayTime	: 4000
+		});
+		$(".monteserinGallery6").monteserinGallery({
+			initPosX 	: "0",
+			endPosX  	: "0"
+		});
+	});
+	</script>
+</head>
+<body>
+
+<div id="wrapper">
+		<header>
+	<h1>Monteserín Gallery</h1>
+	<p>	By default, the image size is 600x300px. If you want to change it, you must explicity overryde in the javascript call:
+	</p>
+
+</header>
+
+
+<code><pre>$(".monteserinGallery1").monteserinGallery();</pre></code>
+
+	<ul class="monteserinGallery1"  >
+		<li><div>
+			<img src="http://via.placeholder.com/350x350">
+		</div>
+	</li>
+	<li><div style="background:red">
+		<img src="http://via.placeholder.com/350x350"></div>
+	</li>
+</ul>
+
+<code><pre>With overflow:hidden in the list:</pre></code>
+<ul class="monteserinGallery2" style=" overflow:hidden" >
+	<li>
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+	<li>
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+</ul>
+
+
+
+<code>
+	<pre>
+$(".monteserinGallery3").monteserinGallery({
+	initPosX 	: "0px",
+	initPosY 	: "0px",
+	endPosX  	: "0px",
+	endPosY  	: "500px",
+});
+	</pre>
+</code>
+<ul class="monteserinGallery3" style="overflow:hidden">
+	<li style="background:red">
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+	<li style="background:blue">
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+</ul> 
+
+
+<code>
+	<pre>
+$(".monteserinGallery4").monteserinGallery({
+	width:"700px",
+	height:"700px"
+});
+	</pre>
+</code>
+<ul class="monteserinGallery4" >
+	<li>
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+	<li>
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+</ul>
+
+<code><pre>
+$(".monteserinGallery5").monteserinGallery({
+	initPosX 	: "-500px",
+	initPosY 	: "0px",
+	endPosX  	: "500px",
+	endPosY  	: "0px",
+	inTime		: 2500,
+	outTime		: 2500,
+	displayTime	: 4000
+});
+</pre></code>
+<ul class="monteserinGallery5" >
+	<li>
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+	<li>
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+</ul> 
+
+<code><pre>
+$(".monteserinGallery6").monteserinGallery({
+	initPosX 	: "0",
+	endPosX  	: "0"
+});
+</pre></code>
+
+<ul class="monteserinGallery6" >
+	<li>
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+	<li>
+		<img src="http://via.placeholder.com/350x350">
+	</li>
+
+</ul> 
+</div>
+</body>
+</html>
